@@ -7,7 +7,6 @@ const ANALYSE_PATH = "/api/analyse";
 // (e.g. https://your-backend.onrender.com). Falls back to localhost for dev.
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3001";
 
-console.log("API_URL =", API_URL);
 
 
 function readStoredResult() {
